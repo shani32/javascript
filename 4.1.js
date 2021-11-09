@@ -1,5 +1,5 @@
-let numSiblings = prompt("how mant siblings do you have?");
-numSiblings= parseInt(numSiblings);
+let num = prompt("how mant siblings do you have?");
+let numSiblings= parseInt(numSiblings);
 if (numSiblings == 1) {
   console.log("1 siblings");
 } else if (numSiblings>1){
